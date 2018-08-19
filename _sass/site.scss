@@ -1,0 +1,37 @@
+@import 'kube/scss/vars';
+@import '/css/kube.css';
+
+.is-brand {
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.menu {
+    li {
+        cursor: pointer;
+        a {
+            text-transform: uppercase;
+            border-radius:0;
+        }
+        a:first-child {
+            border-radius:0;
+        }
+        a:hover {
+            color: $color-link;
+        }
+    }
+    .sub-nav {
+        ul {
+            width: 100%;
+            margin-left: 0;
+
+            li a {
+                padding-left: 35px;
+            }
+        }
+    }
+}
+
+.panel {
+
+}
