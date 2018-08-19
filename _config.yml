@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   or other ruby based web framework like Sinatra, Roda. Every project is built following
   industry standard best practices, test driven development, continuous integration, coutinous delivery,
   SOLID principles and Object Oriented design patterns.
-baseurl: "uprising-software-com" # the subpath of your site, e.g. /blog
+baseurl: "/uprising-software-com" # the subpath of your site, e.g. /blog
 url: https://stupidcodefactory.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  stupidcodefactory
